@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="black">#000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+
+</resources>

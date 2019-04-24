@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_device_list_selector"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/camera_name"
+            android:textSize="20sp"
+            android:text="我的摄像机"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+
+        <ImageView
+            android:id="@+id/img_isZY"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/common_iseeu_tag" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/comment_bg_color"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_margin="5dp"
+                android:layout_width="@dimen/item_imageview_width"
+                android:layout_height="@dimen/item_imageview_height"
+                android:scaleType="centerCrop" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/camera_overdue_date"
+                    android:textColor="@color/my_device_text_color"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/add_arrow_forward"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="bottom">
+
+                <ProgressBar
+                    android:id="@+id/zhiyun_use_progressbar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:minHeight="2dp"
+                    android:max="100"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/zhiyun_use_progress_text"
+                    android:text="100%"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/comment_bg_color"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/camera_ddns_or_zhiyun_num"
+        android:text="智云号：hhhh"
+        android:singleLine="true"
+        android:textColor="@color/my_device_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

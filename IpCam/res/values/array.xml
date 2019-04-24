@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="devices_mode">
+
+        <!--B1系列-->
+        <!--<item>Sip1016</item>-->
+        <!--<item>Sip908</item>-->
+
+        <!--B系列1018-->
+        <item>428</item>
+        <item>1017</item>
+        <item>1018</item>
+        <item>10180000</item>
+        <item>10180011</item>
+        <item>1019</item>
+        <item>1020</item>
+        <item>1021</item>
+        <item>1022</item>
+        <item>902</item>
+        <item>910</item>
+
+        <!--M系列1201-->
+        <item>1201</item>
+        <item>1202</item>
+        <item>12020000</item>
+        <item>1203</item>
+        <item>1204</item>
+        <item>1205</item>
+        <item>1206</item>
+        <item>1207</item>
+        <item>1210</item>
+        <item>1213</item>
+        <item>1214</item>
+        <item>1215</item>
+        <item>914</item>
+        <item>1212</item>
+
+        <!--新增的1211系列-->
+        <item>1211</item>
+
+        <!--F系列1406-->
+        <item>1306</item>
+        <item>13060000</item>
+        <item>1406</item>
+        <item>916</item>
+        <item>918</item>
+
+        <!--H系列1120-->
+        <item>264</item>
+        <item>1113</item>
+        <item>1118</item>
+        <item>1119</item>
+        <item>1120</item>
+        <item>1121</item>
+        <item>1128</item>
+        <item>1308</item>
+        <item>912</item>
+
+        <!--新增的1601系列-->
+        <item>1601</item>
+        <item>1602</item>
+        <item>1603</item>
+        <item>1604</item>
+        <item>1605</item>
+        <item>1606</item>
+        <item>16060000</item>
+        <item>913</item>
+
+        <!--新增的1303系列-->
+        <item>1303</item>
+        <item>1305</item>
+
+    </string-array>
+
+    <string-array name="devices">
+
+        <!--B1系列-->
+        <!--<item>Sip1016</item>-->
+        <!--<item>Sip908</item>-->
+
+        <!--B系列1018-->
+        <item>Sip428</item>
+        <item>Sip1017</item>
+        <item>Sip1018</item>
+        <item>Sip1018w</item>
+        <item>Sip1018l</item>
+        <item>Sip1019</item>
+        <item>Sip1020</item>
+        <item>Sip1021</item>
+        <item>Sip1022</item>
+        <item>Sip902</item>
+        <item>Sip910</item>
+
+        <!--M系列1201-->
+        <item>Sip1201</item>
+        <item>Sip1202</item>
+        <item>Sip1202w</item>
+        <item>Sip1203</item>
+        <item>Sip1204</item>
+        <item>Sip1205</item>
+        <item>Sip1206</item>
+        <item>Sip1207</item>
+        <item>Sip1210</item>
+        <item>Sip1213</item>
+        <item>Sip1214</item>
+        <item>Sip1215</item>
+        <item>Sip914</item>
+        <item>Sip1212</item>
+
+        <!--新增的1211系列-->
+        <item>Sip1211</item>
+
+        <!--F系列1406-->
+        <item>Sip1306</item>
+        <item>Sip1306w</item>
+        <item>Sip1406</item>
+        <item>Sip916</item>
+        <item>Sip918</item>
+
+        <!--H系列1120-->
+        <item>Sip264</item>
+        <item>Sip1113</item>
+        <item>Sip1118</item>
+        <item>Sip1119</item>
+        <item>Sip1120</item>
+        <item>Sip1121</item>
+        <item>Sip1128</item>
+        <item>Sip1308</item>
+        <item>Sip912</item>
+
+        <!--新增的1601系列-->
+        <item>Sip1601</item>
+        <item>Sip1602</item>
+        <item>Sip1603</item>
+        <item>Sip1604</item>
+        <item>Sip1605</item>
+        <item>Sip1606</item>
+        <item>Sip1606w</item>
+        <item>Sip913</item>
+
+        <!--新增的1303系列-->
+        <item>Sip1303</item>
+        <item>Sip1201-plus</item>
+
+    </string-array>
+
+    <string-array name="video_quality">
+        <item>Max</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Min</item>
+    </string-array>
+
+    <string-array name="sip1018_video_quality">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="video_orientation">
+        <item>Normal</item>
+        <item>Flip</item>
+        <item>Mirror</item>
+        <item>Flip/Mirror</item>
+    </string-array>
+
+    <string-array name="video_environment">
+        <item>Indoor(50Hz)</item>
+        <item>Indoor(60Hz)</item>
+        <item>Outdoor</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="audio_state">
+        <item>Mute</item>
+        <item>Listening</item>
+        <item>Speaking</item>
+    </string-array>
+
+    <string-array name="renewals_date">
+        <item>续费1年</item>
+        <item>续费2年</item>
+        <item>续费3年</item>
+        <item>续费4年</item>
+    </string-array>
+
+    <string-array name="video_resolution_text">
+        <item>Resolution</item>
+        <item>Mode</item>
+    </string-array>
+
+    <string-array name="video_resolution">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="video_mode">
+        <item>50Hz</item>
+        <item>60Hz</item>
+        <item>Outdoor</item>
+    </string-array>
+
+    <string-array name="share_mode">
+        <item>分享到看世界</item>
+        <item>分享到微信，微博，邮件</item>
+    </string-array>
+
+    <!--<string-array name="video_image_attr">-->
+    <!--<item>明亮度</item>-->
+    <!--<item>饱和度</item>-->
+    <!--<item>对比度</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="video_flip">-->
+    <!--<item>图像翻转</item>-->
+    <!--<item>镜像</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="video_mode_night">-->
+    <!--<item>普通模式</item>-->
+    <!--<item>夜间模式</item>-->
+    <!--</string-array>-->
+
+    <string-array name="feedback_types">
+        <item>Play Exception</item>
+        <item>App Crash</item>
+        <item>ZhiYun Renewal</item>
+        <item>Technical Advisory</item>
+        <item>Recommendations</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="text_tips">
+        <item>You can upgrade firmware of the device(1701)！Easy to set up，let’s download now！</item>
+        <item>World View can search video now~Quickly search your favorite video！</item>
+        <item>You can login SeeWorld through other acounts（Wechat/Microblog/QQ）! Let’s try it!</item>
+        <item>Rewarding your favorite video is coming soon！Please look forward to more amazing functions！</item>
+        <item>Comments in World View can be pushed in real time~Take notice of interacting with your friends！</item>
+        <item>You can upgrade firmware of the device（1304）online now！Try it on！</item>
+    </string-array>
+
+</resources>

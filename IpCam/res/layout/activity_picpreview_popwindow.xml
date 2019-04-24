@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="@dimen/pop_width"
+    android:background="#262626"
+    android:alpha="0.8"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lel_preview_popwindow"
+        android:layout_width="@dimen/pop_width"
+        android:layout_height="@dimen/pop_width"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/see_video_play_back" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/pop_width">
+
+        <ImageView
+            android:id="@+id/pic_preview_save"
+            android:src="@drawable/ic_action_save"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/pic_preview_share"
+            android:src="@drawable/abc_ic_menu_share_holo_dark"
+            android:layout_toLeftOf="@id/pic_preview_save"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

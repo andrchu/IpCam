@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/listview_normal_bg"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_Reward_lel_height"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="￥"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_reward_num"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:background="@drawable/common_edit_input_box_n"
+                android:lines="1"
+                android:gravity="start|center"
+                android:paddingLeft="10dp"
+                android:textSize="22sp"
+                android:hint="@string/seeworld_reward_hint"
+                android:inputType="numberDecimal"
+                android:digits="0123456789."
+                android:textColor="@color/kaicong_orange"
+                />
+
+            <ImageView
+                android:id="@+id/img_reward_random"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/reward_randomprice_min"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/img_reward_random_max"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/reward_randomprice_max"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reward_minNum"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sureReward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kaicong_orange_click"
+        android:textColor="@color/white"
+        android:text="@string/see_world_commit"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seeworld_reward_tip"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/monitor_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <net.kaicong.ipcam.device.sip1303.Sip1303Monitor
+            android:id="@+id/monitor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imageview_recording"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/video_play_recording"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageAnimation"
+                android:adjustViewBounds="true"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
+
+            <TextView
+                android:id="@+id/progress_bar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_base_progress_dialog_content"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ctrl_layout"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/pop_see_world_bottom_view"></include>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/page_indicator_layout"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_below="@id/monitor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.viewpagerindicator.TabPageIndicator
+            android:visibility="gone"
+            android:id="@+id/indicator"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:background="@color/dark_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/video_play_back"
+                    android:layout_gravity="left"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/reward"
+                    android:src="@drawable/common_reward"
+                    android:layout_centerInParent="true"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+
+                <ImageView
+                    android:id="@+id/img_share"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/video_play_share"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

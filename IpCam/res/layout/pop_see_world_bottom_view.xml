@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/pop_see_world_bottom_height"
+    android:background="#262626"
+    android:alpha="0.8"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/pop_1"
+        android:src="@drawable/video_play_snap"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/pop_2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pop_2_image"
+            android:src="@drawable/see_video_play_thumb_up"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:id="@+id/pop_2_text"
+            android:text="55"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pop_3"
+        android:src="@drawable/video_play_video_camera"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/pop_4"
+        android:src="@drawable/see_video_play_star"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_weight="1" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/pop_5"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="28dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textSize="22sp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/seeworld_reward"-->
+        <!--android:textColor="@color/white"/>-->
+
+</LinearLayout>

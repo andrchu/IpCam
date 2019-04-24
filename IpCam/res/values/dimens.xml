@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- *******************************************************
+         *******************************************************
+         ************************布局大小************************
+         *******************************************************
+         *******************************************************  -->
+    <!--activity_base_title.xml-->
+    <dimen name="base_title_max_width">260dp</dimen>
+    <dimen name="base_title_btn_max_width">60dp</dimen>
+    <dimen name="base_title_btn_width">25dp</dimen>
+
+    <!-- activity_camera_property.xml -->
+    <dimen name="camera_property_base_margin">10dp</dimen>
+    <dimen name="camera_property_text_width">90dp</dimen>
+    <dimen name="camera_property_edit_text_margin_left">5dp</dimen>
+    <dimen name="camera_property_linear_layout_margin_top">10dp</dimen>
+
+    <!-- activity_camera_video.xml -->
+    <dimen name="camera_video_width">240dp</dimen>
+
+    <!-- pop_camera_video.xml -->
+    <dimen name="pop_width">50dp</dimen>
+
+    <!-- pop_see_world_bottom_view.xml -->
+    <dimen name="pop_see_world_bottom_height">45dp</dimen>
+
+    <!-- pop_preview_position.xml -->
+    <dimen name="pop_preview_width">200dp</dimen>
+    <dimen name="pop_dropwindow_width">150dp</dimen>
+
+    <!-- PreviewPositionPopWindow.java -->
+    <dimen name="item_preview_margin">5dp</dimen>
+
+    <!-- fragment_about_more.xml -->
+    <dimen name="about_more_item_width">60dp</dimen>
+    <dimen name="about_more_item_margin_top1">40dp</dimen>
+    <dimen name="about_more_item_margin_top2">20dp</dimen>
+    <dimen name="about_more_item_padding_left">15dp</dimen>
+
+    <!--activity_user_login.xml-->
+    <dimen name="user_login_text_width">90dp</dimen>
+
+    <!--activity_user_register.xml-->
+    <dimen name="user_register_text_width">90dp</dimen>
+
+    <!--item_world_view.xml-->
+    <dimen name="world_view_image_height">200dp</dimen>
+    <dimen name="world_view_image_padding">10dp</dimen>
+    <dimen name="world_view_icon_padding">3dp</dimen>
+    <dimen name="world_view_icon_margin_left">15dp</dimen>
+    <dimen name="push_margin_left">13dp</dimen>
+
+    <!--fragment_world_view.xml-->
+    <dimen name="fragment_world_view_margin">15dp</dimen>
+    <dimen name="fragment_world_view_margin_top">10dp</dimen>
+    <dimen name="fragment_world_view_list_height">20dp</dimen>
+
+    <!-- item_search_uid_wifi.xml -->
+    <dimen name="item_textview_padding">5dp</dimen>
+
+    <!-- item_my_device.xml -->
+    <dimen name="item_imageview_width">100dp</dimen>
+    <dimen name="item_imageview_height">75dp</dimen>
+
+    <!-- item_select_device_type.xml -->
+    <dimen name="item_select_device_image_width">50dp</dimen>
+    <dimen name="item_select_device_image_height">50dp</dimen>
+    <dimen name="item_select_device_margin_left">10dp</dimen>
+
+    <!-- *******************************************************
+         *******************************************************
+         ************************字体大小************************
+         *******************************************************
+         *******************************************************  -->
+    <!-- activity_camera_property.xml -->
+    <dimen name="camera_property_text_size">18sp</dimen>
+
+    <!-- activity_camera_video.xml -->
+    <dimen name="camera_video_status_text_size">18sp</dimen>
+
+    <!-- PreviewPositionPopWindow.java -->
+    <dimen name="item_preview_text_size">10sp</dimen>
+
+    <!-- fragment_about_more.xml -->
+    <dimen name="about_more_item_text_size">20sp</dimen>
+
+    <!--activity_user_login.xml-->
+    <dimen name="login_text_size">18sp</dimen>
+
+    <!--item_world_view.xml-->
+    <dimen name="world_view_text_size">18sp</dimen>
+
+    <!-- item_search_uid_wifi.xml -->
+    <dimen name="item_textview_uid_textsize">18sp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">290dp</dimen>
+
+    <!-- dialog_common_edittext_dialog.xml -->
+    <dimen name="common_edittext_height">145dp</dimen>
+
+    <dimen name="common_video_popwindow_size">30dp</dimen>
+
+    <dimen name="common_line_height">1dp</dimen>
+
+    <dimen name="common_radio_width">70dp</dimen>
+
+    <dimen name="common_video_setting_width">70dp</dimen>
+
+    <dimen name="common_PicComment_height">60dp</dimen>
+
+    <dimen name="common_PicComment_width">80dp</dimen>
+
+    <!-- layout_reward -->
+    <dimen name="layout_Reward_height">150dp</dimen>
+
+    <dimen name="layout_Reward_lel_height">70dp</dimen>
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~修改版 用户中心~~~~~~~~~~~~~~~  -->
+    
+    <dimen name="perCenter_headBg_height">200dp</dimen>
+    <dimen name="perCenter_comImageSize">40dp</dimen>
+    <dimen name="perCenter_smallImageSize">30dp</dimen>
+</resources>

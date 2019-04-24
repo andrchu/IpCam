@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment_bg_color">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/lel_messType_warn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/home_list_selector">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/record_25"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/mess_moveWarn"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/mess_numTip_warn"
+                android:background="@drawable/mess_numtip"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:src="@drawable/add_arrow_forward"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="62dp"
+            android:background="@color/comment_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/lel_messType_comment"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/home_list_selector">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/rate_us"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/mess_commentMess"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/mess_numTip_comment"
+                android:background="@drawable/mess_numtip"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:src="@drawable/add_arrow_forward"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="62dp"
+            android:background="@color/comment_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/lel_messType_reward"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/home_list_selector">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/reward"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/aboutUs_rewardRecord"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/mess_numTip_reward"
+                android:background="@drawable/mess_numtip"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:src="@drawable/add_arrow_forward"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="62dp"
+            android:background="@color/comment_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/lel_messType_crm"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/home_list_selector">
+
+            <ImageView
+                android:id="@+id/icon_crm"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/mail"
+                android:layout_marginLeft="15dp" 
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/mess_crmMess"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/mess_numTip_crm"
+                android:background="@drawable/mess_numtip"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:src="@drawable/add_arrow_forward"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

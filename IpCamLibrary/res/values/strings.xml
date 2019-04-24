@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+
+    <string name="activity_base_progress_dialog_content">Loading...</string>
+    <string name="facebook_app_id">1580896372173698</string>
+
+    <string name="msg_default_format">Format </string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_default_time">Date</string>
+    <string name="msg_default_status">Scan QR code in the frame </string>
+    <string name="msg_camera_framework_bug">Sorry, you may restart your mobile due to camera function problem. </string>
+    <string name="button_ok">OK</string>
+    <string name="rotating_right">Right</string>
+    <string name="rotating_left">Left</string>
+    <string name="exception">Operation not correct, please make it again! </string>
+
+</resources>

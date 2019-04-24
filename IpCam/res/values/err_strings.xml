@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="operation_failed">Operation failed,please try again.</string>
+    <string name="tips_no_sdcard">The SD Card is not installed.</string>
+
+    <!-- 登陆 -->
+    <string name="login_invalid_email">Please input a correct email.</string>
+    <string name="login_invalid_password">Please input the correct password.</string>
+    <string name="login_invalid_phone">Please input the correct phone number.</string>
+    <string name="login_error_account">Account does not exist.</string>
+    <string name="login_error_account_pass_not_match">Wrong account or password.</string>
+    <string name="login_error_not_enabled">Account is not activated.</string>
+
+    <!-- 注册 -->
+    <string name="tips_no_devices_now">You has not yet add the device,please click &#043; to add it.</string>
+    <string name="register_account_exists">Account already exit.</string>
+    <string name="register_phone_num_exists">The phone number has been registered, please re-enter another one.</string>
+    <string name="register_please_input_sms_code">Input validate code</string>
+    <string name="register_sms_code_error">Message code is wrong,please re-enter</string>
+
+    <string name="common_input_not_empty">Input can not be empty.</string>
+
+    <string name="tips_this_ddns_not_exist">This Cloud ID does not exist.</string>
+    <string name="tips_old_password_error">Original password is incorrect, please re-enter.</string>
+    <string name="tips_phone_invalid">The phone number is invalid.</string>
+    <string name="tips_sms_net_error">SMS Gateway abnormal.</string>
+    <string name="tips_ddns_sms_not_open">Operation failed,SMS alarm don\'t open yet.</string>
+    <string name="tips_ddns_pwd_error">Operation failed, wrong password.</string>
+    <string name="tips_has_banded_device">Operation failed, you have bound the device</string>
+    <string name="tips_ddns_has_banded">Operation failed, the Cloud ID has been bound.</string>
+    <string name="tips_not_band_ddns">Operation failed, the Cloud ID is not bound.</string>
+    <string name="tips_ddns_locked">Operation failed, the Cloud ID has been locked.</string>
+    <string name="tips_zcloud_invalid">The iSeeU ID is invalid</string>
+    <string name="tips_invalid_ddns">The Cloud ID is invalid</string>
+    <string name="tips_ddns_name_password_not_match">Operation failed,the Cloud ID account and password do not match.</string>
+</resources>

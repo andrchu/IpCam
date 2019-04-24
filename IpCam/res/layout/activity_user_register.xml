@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/switch_action"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/matching_tab_one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/register_by_phone"
+            android:text="@string/register_by_phone"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/register_by_email"
+            android:text="@string/register_by_email"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:background="@drawable/tab_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/register_edit_account"
+                android:layout_width="match_parent"
+                android:hint="@string/register_user_please_input_phone"
+                android:inputType="number"
+                android:singleLine="true"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_add_property_two"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <View
+                android:background="@color/list_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/register_edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    android:hint="@string/login_user_password_hint"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <View
+                android:background="@color/list_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:textSize="@dimen/login_text_size"
+                    android:text="@string/login_user_password_twice"
+                    android:layout_width="@dimen/user_login_text_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/register_edit_password_twice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    android:hint="@string/register_user_please_input_second_pass"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/get_sms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <View
+                android:background="@color/list_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+
+            <LinearLayout
+                android:background="@drawable/tab_view_background"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/register_edit_phone"
+                    android:layout_width="0dp"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="@string/login_user_phone_sms_code"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/get_code"
+                    android:text="@string/register_get_sms_code_btn"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:background="@drawable/me_login_btn_click"
+                    android:textSize="15sp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_marginTop="@dimen/about_more_item_margin_top2"
+        android:paddingLeft="@dimen/about_more_item_padding_left"
+        android:text="@string/login_user_register_btn"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="@dimen/about_more_item_text_size"
+        android:background="@drawable/me_register_btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>

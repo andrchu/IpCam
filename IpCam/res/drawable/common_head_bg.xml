@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!--android:shape="oval"表示所要绘制的图形是一个椭圆，默认是rectangle，长方形-->
+    <!--gradient 产生颜色渐变 android:angle 从哪个角度开始变 只有90的整数倍可以 -->
+    <solid android:color="@android:color/white" />
+    <!--solid表示图形是实心的，填充里面，#ff4100ff为填充颜色-->
+
+    <!-- 描边 采用那样的方式将外形轮廓线画出来，width表示笔的粗细，dashWidth表示小横线的宽度，dashGap表示小横线之间的距离-->
+    <padding
+        android:left="7dp"
+        android:top="7dp"
+        android:right="7dp"
+        android:bottom="7dp" />
+    <!--和CSS中的padding应该是一个道理-->
+    <corners android:radius="6dp" />
+    <!--corners表示是有半径为5像素的圆角-->
+
+    <size
+        android:height="100dp"
+        android:width="100dp"></size>
+</shape>

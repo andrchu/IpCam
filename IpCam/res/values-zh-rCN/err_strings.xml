@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="operation_failed">操作失败，请重试</string>
+    <string name="socket_connect_error">连接服务器异常,请检查网络设置</string>
+    <string name="tips_no_sdcard">您的手机未安装SD卡。</string>
+
+    <!-- 登陆 -->
+    <string name="login_invalid_email">请输入正确的邮箱</string>
+    <string name="login_invalid_password">请输入正确的密码</string>
+    <string name="login_invalid_phone">请输入正确的手机号</string>
+    <string name="login_error_account">账户不存在</string>
+    <string name="login_error_account_pass_not_match">账户密码不匹配</string>
+    <string name="login_error_not_enabled">账户未激活</string>
+
+    <!-- 注册 -->
+    <string name="tips_no_devices_now">您目前还没有添加设备，快去添加吧</string>
+    <string name="register_account_exists">账号已存在</string>
+    <string name="register_phone_num_exists">该手机号已被注册了,请重新输入</string>
+    <string name="register_please_input_sms_code">请输入验证码</string>
+    <string name="register_sms_code_error">验证码不正确，请重新输入</string>
+    <string name="register_sms_max_get">您今天获取的验证码次数过多，请明天重试</string>
+    <string name="reset_pwd_get_sms_failed">验证码申请失败，该手机号未被注册</string>
+
+    <string name="common_input_not_empty">输入不可为空</string>
+    <string name="common_input_not_equal">两次密码输入不一致，请重新输入</string>
+    <string name="common_input_new_old_equal">您的输入与旧密码相同，请输入一个新的密码</string>
+
+    <string name="tips_this_ddns_not_exist">该云号不存在</string>
+    <string name="tips_old_password_error">原密码错误，请重新输入</string>
+    <string name="tips_balance_short">短信余额次数不足</string>
+    <string name="tips_phone_invalid">手机号码不合法</string>
+    <string name="tips_sms_net_error">短信网关异常</string>
+    <string name="tips_ddns_sms_not_open">操作失败，短信报警还未开启</string>
+    <string name="tips_ddns_pwd_error">操作失败，凯聪云号密码错误</string>
+    <string name="tips_has_banded_device">操作失败，您已经绑定过该设备</string>
+    <string name="tips_ddns_has_banded">操作失败，该凯聪云号已被绑定</string>
+    <string name="tips_not_band_ddns">操作失败，该账户未绑定凯聪云号</string>
+    <string name="tips_ddns_locked">操作失败，凯聪云号已锁定</string>
+    <string name="tips_zcloud_invalid">智云号无效</string>
+    <string name="tips_invalid_ddns">操作失败，无效的凯聪云号</string>
+    <string name="tips_ddns_name_password_not_match">操作失败，凯聪云帐号和密码不匹配</string>
+    <string name="tips_no_favorite_device">您目前还没有收藏任何设备，快去收藏吧</string>
+    <string name="tips_get_order_info_error">获取订单号失败，请点击确认按钮重新获取</string>
+    <string name="tips_pay_confirm">支付结果确认中</string>
+
+    <string name="tips_receive_packet_exception">正在断开设备连接...</string>
+    <string name="tips_device_is_not_shared">设备没有分享到看世界，您不能申请地标</string>
+    <string name="tips_device_has_ownered">该设备已被主人拥有</string>
+    <string name="tips_device_has_apply_position">您已经提交过地标认证申请了，请耐心等待我们的审核结果~</string>
+
+</resources>

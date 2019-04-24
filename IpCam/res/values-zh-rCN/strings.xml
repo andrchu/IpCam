@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">1.9</string>
+    <string name="app_version_name">V2.0</string>
+    <string name="app_name">看看看</string>
+    <string name="second">秒</string>
+    <string name="app_update_title">更新提示</string>
+    <string name="app_update_message">检测到您的手机上安装了"看看看"的旧版本，由于该版本我们将不会再提供更新，请点击"卸载"按钮将其卸载后才能正常使用！</string>
+    <string name="app_update_uninstall">卸载</string>
+
+    <!--标题-->
+    <string name="title_search_camera_title">搜索</string>
+    <string name="title_search_camera">搜索中</string>
+    <string name="title_search_result">搜索结果</string>
+    <string name="title_camera_property">摄像头属性</string>
+    <string name="title_camera_video">摄像头视频</string>
+    <string name="title_user_login">用户登录</string>
+    <string name="title_user_register">用户注册</string>
+    <string name="title_user_reset_password">忘记密码?</string>
+    <string name="title_push_commnet">我的评论</string>
+
+    <!--首页-->
+    <string name="main_tab_my_device">我的设备</string>
+    <string name="main_tab_world_view">看世界</string>
+    <string name="main_tab_recent">消息</string>
+    <string name="main_tab_more">更多</string>
+
+    <!--更多-->
+    <string name="about_more_login_text">我要登录</string>
+    <string name="about_more_about_us">关于我们</string>
+    <string name="about_more_rating">评分鼓励</string>
+    <string name="about_more_feedback">意见反馈</string>
+    <string name="about_more_feedback_max_length">输入字数不能超过200</string>
+    <string name="about_more_my_feedback">新建</string>
+    <string name="about_more_new_feedback">新建反馈</string>
+    <string name="about_more_my_feedback_talk">我的反馈</string>
+    <string name="about_more_select_feedback">请选择反馈类型</string>
+    <string name="about_more_feedback_type">反馈类型</string>
+    <string name="about_more_feedback_success">您的反馈已成功提交，我们将尽快答复您的问题</string>
+    <string name="about_more_login_out_text">退出登录</string>
+    <string name="about_more_change_pwd">修改密码</string>
+    <string name="about_us_official">凯聪官网</string>
+    <string name="about_us_technology">技术论坛</string>
+    <string name="about_us_mall">凯聪商城</string>
+    <string name="about_us_progress">进步展示</string>
+    <string name="about_us_user_protocol">用户使用协议</string>
+
+    <!--登陆-->
+    <string name="login_user_account">账号:</string>
+    <string name="login_user_register_email">注册邮箱</string>
+    <string name="login_user_account_hint">请输入邮箱</string>
+    <string name="login_user_password">密码:</string>
+    <string name="login_user_password_twice">密码确认:</string>
+    <string name="login_user_password_hint">请输入密码(6-20位字符)</string>
+    <string name="login_user_sms_code_hint">请输入验证码</string>
+    <string name="login_user_phone_sms_code">手机验证码</string>
+    <string name="login_user_password_twice_hint">请再次输入密码</string>
+    <string name="login_user_login_btn">登录</string>
+    <string name="login_user_register">注册</string>
+    <string name="login_user_login_cancel">取消</string>
+    <string name="login_user_register_btn">注册</string>
+    <string name="login_user_complete_register_btn">完成注册</string>
+    <string name="login_user_please_login_first">您需要先登录才能继续操作</string>
+    <string name="register_user_please_input_email">请输入邮箱</string>
+    <string name="register_user_please_input_phone">请输入手机号</string>
+    <string name="register_user_please_input_second_pass">请输入确认密码</string>
+    <string name="login_account_hint">邮箱/手机号</string>
+    <string name="login_pass_hint">密码</string>
+    <string name="login_other_Login">第三方账号登录</string>
+    <string name="login_binding">绑定第三方账号</string>
+    <string name="reward_info">打赏明细</string>
+
+    <string name="register_get_sms_code_btn">点击获取</string>
+    <string name="register_title_sms_code">验证码</string>
+    <string name="register_by_email">邮箱注册</string>
+    <string name="register_by_phone">手机注册</string>
+    <string name="reset_by_email">邮箱找回</string>
+    <string name="reset_by_phone">手机找回</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="register_take_sms_time">已发送</string>
+    <string name="register_by_email_success">通过邮箱注册成功,请通过邮箱登陆</string>
+    <string name="register_by_phone_success">通过手机号注册成功</string>
+    <string name="register_enable_account">激活账户</string>
+    <string name="reset_by_email_success">重置密码链接已经发送到您的邮箱，请登录邮箱进行修改</string>
+    <string name="reset_by_phone_success">通过手机号修改密码成功</string>
+    <string name="upload_head_success">上传头像成功</string>
+    <string name="upload_head_failed">上传头像失败</string>
+
+    <!--摄像头属性-->
+    <string name="edit_host">主机</string>
+    <string name="edit_host_hint">0.0.0.0</string>
+    <string name="edit_port">端口:</string>
+    <string name="edit_port_hint">80</string>
+    <string name="edit_user">用户</string>
+    <string name="edit_user_hint">admin</string>
+    <string name="edit_pass">密码:</string>
+    <string name="edit_new_pass">新的密码:</string>
+    <string name="edit_ensure_pass">确认密码:</string>
+    <string name="btn_preview">预览</string>
+
+    <!--摄像头视频-->
+    <string name="btn_save">保存</string>
+    <string name="text_camera_status">摄像头状态:</string>
+    <string name="text_video_status">视频状态:</string>
+    <string name="text_video_preview">预置位</string>
+    <string name="text_preview_title">是否覆盖此预置位?</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_video_hd">高清</string>
+    <string name="btn_video_sd">标清</string>
+    <string name="btn_video_speed">极速</string>
+    <string name="btn_video_type_normal">普通模式</string>
+    <string name="btn_video_type_night">夜间模式</string>
+
+    <string name="activity_main_manual">手动</string>
+    <string name="activity_search_camera_right_btn_text">刷新</string>
+    <string name="activity_main_right_btn_text">添加</string>
+    <string name="activity_main_btn_collection">收藏页</string>
+    <string name="title_get_sample">首页</string>
+    <string name="activity_main_go_to">前往</string>
+    <string name="activity_base_progress_dialog_content">加载中...</string>
+
+    <!-- 添加智云设备 -->
+    <string name="activity_add_zhiyun_device_title">添加设备</string>
+    <string name="activity_search_uid_wifi_title">内网搜索</string>
+
+    <!-- Connection Mode -->
+    <string name="txtMute">静音</string>
+    <string name="txtListening">监听中</string>
+    <string name="txtSpeaking">通话中</string>
+    <string name="txtListen">监听</string>
+    <string name="txtSpeak">通话</string>
+    <string name="tips_snapshot_ok">成功拍照并保存到相册</string>
+    <string name="connstus_connecting">连接中...</string>
+    <string name="connstus_connected">在线</string>
+    <string name="connstus_disconnect">离线</string>
+    <string name="connstus_unknown_device">未知设备</string>
+    <string name="connstus_connection_failed">连接失败</string>
+    <string name="connstus_connection_timeout">连接超时</string>
+    <string name="connstus_connect_connected">已连接</string>
+    <string name="connstus_wrong_password">密码错误</string>
+    <string name="tips_format_sdcard_success">格式化成功</string>
+    <string name="tips_format_sdcard_failed">格式化失败</string>
+    <string name="setting_video_quality">视频质量:</string>
+    <string name="setting_video_channel">视频通道:</string>
+    <string name="setting_video_orientation">影像翻转:</string>
+    <string name="setting_video_environment">环境模式:</string>
+    <string name="tips_quitting">正在退出</string>
+    <string name="tips_changing">正在切换</string>
+
+    <!-- 添加设备 -->
+    <string name="add_device">添加设备</string>
+    <string name="add_by_ip">Ip模式</string>
+    <string name="add_by_ddns">凯聪云号/智云号:</string>
+    <string name="add_by_ddns_menu">凯聪云号</string>
+    <string name="add_by_ddns_hint">000000</string>
+    <string name="add_by_zhiyun">智云号</string>
+    <string name="add_by_search">搜一搜</string>
+    <string name="add_by_scan">扫一扫</string>
+    <string name="add_device_cemera_name">名称:</string>
+    <string name="add_select_type">选择型号</string>
+    <string name="add_my_camera">我的摄像机</string>
+    <string name="add_ip">IP:</string>
+    <string name="add_longitude">经度</string>
+    <string name="add_latitude">纬度</string>
+    <string name="add_input_zhiyun_num">请输入智云号</string>
+    <string name="add_device_adapter_zhiyun">智云号:</string>
+    <string name="add_device_adapter_ddns">凯聪云号:</string>
+    <string name="add_device_adapter_ip">设备IP:</string>
+    <string name="add_device_search_tips">通过搜索当前局域网添加设备</string>
+    <string name="add_device_scan_tips">通过扫描二维码添加设备</string>
+    <string name="add_device_ddns_tips">根据凯聪云号/智云号</string>
+    <string name="add_device_zhiyun_tips">根据智云号</string>
+    <string name="add_device_ip_tips">根据IP和端口</string>
+    <string name="add_device_search_result">搜索到%1$s台设备</string>
+
+    <!-- Menu Item -->
+    <string name="actionbar_menu_add_device">&lt;font color=\'white\'&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- 添加设备 -->
+    <string name="add_device_by_ip_success">Ip设备添加成功</string>
+    <string name="add_device_by_zhiyun_success">智云设备添加成功</string>
+    <string name="add_device_by_ddns_success">凯聪云号设备添加成功</string>
+    <string name="add_device_by_ip_failed">Ip设备添加失败</string>
+    <string name="add_device_by_zhiyun_failed">智云设备添加失败</string>
+    <string name="add_device_by_ddns_failed">凯聪云号设备添加失败</string>
+
+    <string name="add_device_select_type">请选择设备型号</string>
+    <string name="add_device_edit_device_name">请填写设备名称</string>
+    <string name="add_device_edit_ip_address">请填写IP地址</string>
+    <string name="add_device_edit_port">请填写端口号</string>
+    <string name="add_device_edit_account">请填写设备账户名</string>
+    <string name="add_device_edit_password">请填写设备密码</string>
+    <string name="add_device_edit_ddns_name">请填写凯聪云号</string>
+    <string name="add_device_edit_zhiyun_name">请输入智云号</string>
+
+    <string name="add_device_delete_device">删除设备</string>
+    <string name="add_device_not_support_yet">该版本暂不支持播放该型号摄像机，请期待新版本</string>
+    <string name="add_device_share_not_support_yet">该版本暂不支持该型号设备分享，请期待新版本</string>
+    <string name="add_device_setting_not_support_yet">该版本暂不支持该型号设备的设置，请期待新版本</string>
+
+    <!-- 验证码 -->
+    <string name="sms_code_success">验证码已成功发送到您的手机上，请尽快输入验证码</string>
+
+    <string name="upload_photo_by_take_photo">拍照</string>
+    <string name="upload_photo_by_select_photo">从相册选择</string>
+    <string name="upload_photo_head">头像</string>
+
+    <string name="change_pwd_old_hint">输入旧密码</string>
+    <string name="change_pwd_new_hint">输入新密码</string>
+    <string name="change_pwd_again_hint">重新输入</string>
+    <string name="change_pwd_success">密码修改成功</string>
+    <string name="change_pwd_old_password">旧密码</string>
+    <string name="change_pwd_new_password">新密码</string>
+
+    <!-- progress text -->
+    <string name="progress_text_check">正在验证设备</string>
+    <string name="progress_text_check_ddns">正在验证云号</string>
+    <string name="progress_text_check_device_success">设备验证成功</string>
+    <string name="progress_text_check_device_failed">设备验证失败:%1$s</string>
+    <string name="progress_text_save_recording">正在保存录像...</string>
+    <string name="progress_text_save_record_success">录像保存成功</string>
+
+    <string name="common_operate_area">控制面板</string>
+    <string name="common_image_brightness">亮度</string>
+    <string name="common_image_saturation">饱和度</string>
+    <string name="common_image_contrast">对比度</string>
+    <string name="common_image_flip">图像翻转</string>
+    <string name="common_image_mirror">镜像</string>
+    <string name="common_image_night">夜间模式</string>
+
+    <!--看世界-->
+    <string name="see_world_view_comments">查看评论</string>
+    <string name="see_world_view_summary">分享摘要</string>
+    <string name="see_world_share_user">分享用户:</string>
+    <string name="see_world_share_time">分享时间:</string>
+    <string name="see_world_share_hot">设备人气:</string>
+    <string name="see_world_share_model">设备型号:</string>
+    <string name="see_world_collect_success">您收藏了此设备</string>
+    <string name="see_world_collect_deleted">已取消收藏</string>
+    <string name="see_world_share_from">看看看图片分享</string>
+    <string name="see_world_praise_success">已赞</string>
+    <string name="see_world_has_praise">同一台设备30分钟内只能赞一次哦</string>
+    <string name="see_world_has_collect">您已经收藏过该设备了，请在我的收藏里查看</string>
+    <string name="see_world_reply">回复</string>
+    <string name="see_world_delete">删除</string>
+    <string name="see_world_commit">提交</string>
+    <string name="see_world_delete_comment">删除评论?</string>
+    <string name="see_world_delete_success">删除成功</string>
+    <string name="see_world_reply_notice">&lt;font color=\'#1366ab\'&gt;回复@%1$s:&lt;/font&gt;</string>
+    <string name="see_world_comment">评论</string>
+    <string name="see_world_login_first_when_thumb">要登录以后才能赞哦~</string>
+    <string name="see_world_login_first_when_collect">要登录以后才能收藏哦~</string>
+    <string name="see_world_login_first_when_comment">要登录以后才能评论哦~</string>
+    <string name="see_world_login_first_when_reply">要登录以后才能回复哦~</string>
+    <string name="see_world_login_first_when_delete">要登录以后才能删除评论哦~</string>
+    <string name="see_world_no_comments_yet">还没有任何评论哦</string>
+
+    <!-- add By lqw -->
+    <string name="see_world_view_location">位置</string>
+    <string name="see_world_location_find_fail">抱歉，暂无数据</string>
+
+    <string name="see_world_keyword_praise">好评</string>
+    <string name="see_world_keyword_latest">最新</string>
+    <string name="see_world_keyword_hot">人气</string>
+    <string name="see_world_keyword_recommend">推荐</string>
+    <string name="see_world_notice">提示</string>
+    <string name="see_world_notice_message">登录后可使用该功能，是否登录？</string>
+    <string name="see_world_my_collect">我的收藏</string>
+    <string name="see_world_delete_collect">取消收藏?</string>
+    <string name="see_world_hide">隐藏</string>
+    <string name="see_world_post">发表</string>
+    <string name="see_world_common_hint">有什么感想快来说说吧~</string>
+    <string name="see_world_common_kaicong_zhiyun">凯聪智云</string>
+    <string name="see_world_collect_on">您于%1$s收藏了次设备</string>
+    <string name="see_world_add_crop">添加截图</string>
+
+    <!-- 我的设备 -->
+    <string name="device_property_title">设备属性</string>
+    <string name="device_property_zhiyun_mode">智云模式</string>
+    <string name="device_property_ddns_mode">云号模式</string>
+    <string name="device_property_play_video">播放视频</string>
+    <string name="device_property_update_root">固件升级</string>
+    <string name="device_property_system_setting">系统设置</string>
+    <string name="device_property_share_device">分享设备</string>
+    <string name="device_property_user_setting">用户设置</string>
+    <string name="device_property_share_setting">分享设置</string>
+    <string name="device_property_title_setting">标题设置</string>
+    <string name="device_property_share_notice">简单描述您的分享内容吧</string>
+    <string name="device_property_has_open">已打开</string>
+    <string name="device_property_has_close">已关闭</string>
+    <string name="device_property_close_share_success">该设备已成功关闭分享</string>
+    <string name="device_property_open_share_success">该设备已成功开启分享</string>
+    <string name="device_property_device_name">设备名称:</string>
+    <string name="device_property_device_ip">设备IP:</string>
+    <string name="device_property_device_port">设备端口:</string>
+    <string name="device_property_device_user">账号:</string>
+    <string name="device_property_device_password">密码:</string>
+    <string name="device_property_change_info">更改信息</string>
+    <string name="device_property_change_info_success">修改设备信息成功</string>
+    <string name="device_property_manage_device">设备管理</string>
+    <string name="device_property_zhiyun_manage">智云管理  %1$s</string>
+    <string name="device_property_zhiyun_use_date">截止：%1$s</string>
+    <string name="device_property_renewals_zhiyun">续费智云</string>
+    <string name="device_property_renew">续费管理</string>
+    <string name="device_property_pay">支付</string>
+    <string name="device_property_wap_pay">支付宝WAP</string>
+    <string name="device_property_pay_year">续费1年</string>
+    <string name="device_property_pay_price">￥ 19.99</string>
+    <string name="device_property_ip_cannot_share">设备无法远程访问，建议您通过云号或外网IP模式重新添加当前设备</string>
+    <string name="device_property_pay_by_client">支付宝钱包支付</string>
+    <string name="device_property_pay_by_client_tips">推荐安装支付宝客户端的用户使用</string>
+    <string name="device_property_pay_by_wap">支付宝网页支付</string>
+    <string name="device_property_pay_by_wx">微信支付</string>
+    <string name="device_property_pay_by_wap_tips">推荐有支付宝账户的用户使用</string>
+    <string name="device_property_overdue_date">该智云号或已过期,请购买或续费后再使用!</string>
+    <string name="device_property_share_to_seeworld">分享到看世界</string>
+    <string name="device_property_share_to_wieixn">分享到微信，微博，邮箱</string>
+    <string name="device_property_reboot_device">重启设备</string>
+
+    <string name="device_property_device_modifyName">修改名称</string>
+    <string name="device_property_device_paramSetting">参数设置</string>
+    <string name="device_property_device_timeSetting">时间设置</string>
+    <string name="device_property_device_videoParam">视频参数</string>
+    <string name="device_property_device_soundParam">音频参数</string>
+    <string name="device_property_device_imgParam">图像参数</string>
+    <string name="device_property_device_deviceInfo">设备信息</string>
+
+    <!-- 视频设置 -->
+    <string name="video_setting_resolution">清晰度</string>
+    <string name="video_setting_mode">模式</string>
+    <string name="video_setting_mode_50hz">50Hz</string>
+    <string name="video_setting_mode_60hz">60Hz</string>
+    <string name="video_setting_mode_outdoor">室外</string>
+    <string name="video_setting_brightness">明亮度</string>
+    <string name="video_setting_saturation">饱和度</string>
+    <string name="video_setting_contrast">对比度</string>
+    <string name="video_setting_zoom_not_support">暂不支持</string>
+    <string name="video_setting_save_record_success">录像已成功保存到相册中</string>
+    <string name="video_setting_save_record_and_quit">是否保存录像并且退出?</string>
+    <string name="video_setting_save_record">视频正在录制，是否保存录像?</string>
+    <string name="kc_app_name">看看看</string>
+    <string name="search_uid_no_devices">没有搜索到设备</string>
+    <string name="not_binding">未绑定</string>
+    <string name="has_binding">已绑定</string>
+    <string name="cancel_banding">取消绑定？</string>
+    <string name="update_root">检测到有新的固件，是否下载升级？</string>
+    <string name="update_root_is_new">已是最新版本</string>
+    <string name="update_root_failed">上传失败</string>
+    <string name="update_get_ip_failed">设备不在线或者IP地址错误</string>
+    <string name="update_update_success">固件已经上传成功，设备正在重启，请等待2分钟</string>
+    <string name="push_activity_get_praise">收到的赞</string>
+    <string name="push_activity_get_comments">收到的评论</string>
+
+
+    <string name="seeworld_reward">赏</string>
+    <string name="seeworld_reward_title">打赏</string>
+    <string name="seeworld_reward_hint">输入打赏金额</string>
+    <string name="aboutUs_rewardRecord">打赏记录</string>
+    <string name="seeworld_reward_ok">谢老爷打赏！</string>
+    <string name="seeworld_reward_again">再赏一个</string>
+    <string name="seeworld_reward_tip">自愿打赏  恕不退款</string>
+    <string name="seeworld_reward_edit_hint">您刚刚对看世界打赏了%1$s元！试试分享让更多朋友看到吧！</string>
+    <string name="seeworld_reward_comment">看起来不错！赏你￥%1$s</string>
+    <string name="reward_record_to_other">赏给别人</string>
+    <string name="reward_record_to_me">别人赏我</string>
+    <string name="reward_record_fee">打赏金额：￥%1$s</string>
+    <string name="seeworld_agreement">看世界协议</string>
+    <string name="seeworld_user_agreement">http://www.kaicongyun.com/kankankan/seeworldagreement-zh-Hans.html</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="common_click_reconnect">点击重连</string>
+
+    <!-- 个人中心-->
+    <string name="bind">绑定</string>
+
+    <string name="reward_minNum">(最小金额：0.01元)</string>
+    <string name="tips_modify_security_code_ok">成功修改密码.该摄像机稍后会重新连接。</string>
+    <string name="tips_update_1304_info">您的设备可以在线升级固件啦！\n快试试\"固件升级\"功能吧~</string>
+    <string name="tips_i_konw">我知道了</string>
+
+    <string name="mess_share">分享</string>
+
+    <string name="about_more_weixin_xd">微信小店</string>
+    <string name="share_position_confirm">地标认证</string>
+    <string name="share_position_confirm_hint">请输入地标名称，例如：上海人民广场</string>
+    <string name="fragment_more_shared_devices">更多分享</string>
+    <string name="fragment_no_more_shared_devices">没有更多分享设备了~</string>
+
+    <string name="mess_moveWarn">移动侦测</string>
+    <string name="mess_commentMess">评论消息</string>
+    
+    <string name="device_become_owner">成为主人</string>
+    <string name="device_become_owner_msg">成为主人后，您可以使用地标认证功能</string>
+    <string name="device_cancel_owner">取消主人</string>
+    <string name="device_cancel_owner_msg">取消主人权限后，您将不能使用地标认证功能~</string>
+    <string name="device_cancel_owner_success">取消主人成功~</string>
+    <string name="device_become_owner_success">成为主人成功~</string>
+    <string name="device_apply_position_success">申请地标成功~</string>
+    <string name="device_apply_position_date">地标申请日期:</string>
+    <string name="device_apply_position_success_date">申请通过日期:</string>
+    <string name="device_apply_position_failure_date">申请失败日期</string>
+    <string name="device_position_desc">地标简介:</string>
+    <string name="device_position_reject_reason">拒绝原因</string>
+    <string name="device_my_position">我的地标</string>
+   
+    <string name="mess_crmMess">系统消息</string>
+    
+    <string name="aboutUs_Content1">  上海凯聪电子科技有限公司，作为安防领域领先品牌，无论拓展速度还是用户口碑，都遥遥领先。凯聪还是国家核定的双软企业，杰出的高新技术企业，拥有强大的技术研发团队，并在美国设立分公司。承诺大陆地区、美国本土48小时送货到达。</string>  
+    <string name="aboutUs_Content2">  自成立以来，凯聪一直以顾客体验为第一要素，公司拥有业内唯一的安防云端——凯聪云平台，实现一账户管理所有设备；并自行研发了安防监控应用“凯聪看看看”以及业内唯一的创新技术——凯聪智云，实现了无论网络，一键穿透，提高了用户使用设备的便利度。</string> 
+    <string name="aboutUs_Content3">  2014年，凯聪又推出了行业独创的O2O云安装服务，开启了安防O2O的新时代，并通过微信深入到客户的方方面面，让顾客足不出户便可预定安装，极大提高了安装体验。</string> 
+    <string name="aboutUs_Content4">  "看看看”是上海凯聪电子科技有限公司自主研发的一款安防监控应用，主要为凯聪用户提供便捷的移动端播控服务。为了丰富客户的体验，我们不断研发出不同的功能：合并智云模式、看世界、打赏功能……让用户的设备管理和访问变得更加方便。</string> 
+    <string name="aboutUs_Content5">  如果您也对这款应用感兴趣，无需注册登录，看世界将为您提供真实有趣的安防体验！我们也将不断地研发创新，让您在看看看中寻找到更多的乐趣！</string>    
+
+    <string name="device_confirm_position_tip">您先要成为设备主人并分享设备后才能申请地标认证~</string>
+    
+</resources>

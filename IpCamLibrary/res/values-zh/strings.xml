@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="crop__saving">正在保存图片…</string>
+    <string name="crop__wait">请稍等…</string>
+    <string name="crop__pick_error">没有找到图片</string>
+
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+
+    <string name="activity_base_progress_dialog_content">加载中...</string>
+
+    <string name="kc_app_name">看看看</string>
+    <string name="msg_default_format">格式</string>
+    <string name="msg_default_type">类型</string>
+    <string name="msg_default_time">时间</string>
+    <string name="msg_default_status">请将条码置于取景框内扫描。  </string>
+    <string name="msg_camera_framework_bug">抱歉，相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+    <string name="rotating_right">向右</string>
+    <string name="rotating_left">向左</string>
+    <string name="exception">操作异常,请重新操作</string>
+
+</resources>

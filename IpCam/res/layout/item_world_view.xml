@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/world_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/fragment_world_view_margin"
+    android:background="@drawable/home_list_selector"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/shared_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textSize="@dimen/world_view_text_size" />
+
+        <ImageView
+            android:id="@+id/image_position"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/common_position_logo"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_zhiyun"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/common_iseeu_tag"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/world_view_image_padding"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/alpha_imageview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/item_world_view_videoplay" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/item_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/item_world_view_thumb_up"
+            android:drawablePadding="@dimen/world_view_icon_padding"
+            android:gravity="center_vertical"
+            android:text="182" />
+
+        <TextView
+            android:id="@+id/item_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/world_view_icon_margin_left"
+            android:drawableLeft="@drawable/item_world_view_comment"
+            android:drawablePadding="@dimen/world_view_icon_padding"
+            android:gravity="center_vertical"
+            android:text="182" />
+
+        <TextView
+            android:id="@+id/item_popularity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/world_view_icon_margin_left"
+            android:drawableLeft="@drawable/item_world_view_hot"
+            android:drawablePadding="@dimen/world_view_icon_padding"
+            android:gravity="center_vertical"
+            android:text="182" />
+
+        <TextView
+            android:id="@+id/item_share_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/world_view_icon_margin_left"
+            android:drawableLeft="@drawable/item_world_view_share_date"
+            android:drawablePadding="@dimen/world_view_icon_padding"
+            android:gravity="center_vertical"
+            android:text="2014-9-4" />
+    </LinearLayout>
+
+</LinearLayout>

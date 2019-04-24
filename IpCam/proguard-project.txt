@@ -1,0 +1,248 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#优化的轮数
+-optimizationpasses 5
+#-flattenpackagehierarchy {package_name}    重新包装所有重命名的包并放在给定的单一包中
+#-flattenpackagehierarchy { a.b.c;}
+-repackageclasses ''
+-allowaccessmodification
+#专家级别的可选项，优化项过滤器。#
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+#继承下面这些类或者接口的不混淆
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+#实现可序列化接口的不混淆
+-keepnames class * implements java.io.Serializable
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    static final java.io.ObjectStreamField[] serialPersistentFields;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# (###############重要#################)
+# 保留ipcamera api里面的NSSelector回调函数，不写混淆后会报找不到ipcamear.jar包里的函数###
+-keepclassmembers public class *{
+   *** *(com.misc.objc.NSNotification);
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# For Umeng Sdk
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+#支持泛型#
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+# 工程导入的jar包，我们不混淆（We know about them, and they are safe.）
+-dontwarn android.support.v4.**
+-keep class android.support.v4.**{ *;}
+
+-dontwarn android.support.v7.**
+-keep class android.support.v7.**{ *;}
+
+-dontwarn com.loopj.android.http.**
+-keep class com.loopj.android.http.**{ *;}
+
+-dontwarn com.nostra13.universalimageloader.**
+-keep class com.nostra13.universalimageloader.**{ *;}
+
+-dontwarn com.misc.**
+-keep class com.misc.**{ *;}
+
+-dontwarn net.reecam.ipc.**
+-keep class net.reecam.ipc.**{ *;}
+
+-dontwarn com.androidquery.**
+-keep class com.androidquery.**{ *;}
+
+-dontwarn com.tutk.IOTC.**
+-keep class com.tutk.IOTC.**{ *;}
+
+-dontwarn com.umeng.update.**
+-keep class com.umeng.update.**{ *;}
+
+-dontwarn com.googlecode.javacpp.**
+-keep class com.googlecode.javacpp.**{ *;}
+
+-dontwarn com.googlecode.javacv.**
+-keep class com.googlecode.javacv.**{ *;}
+
+-dontwarn com.qiniu.android.**
+-keep class com.qiniu.android.**{ *;}
+
+# for 高德地图 #
+-libraryjars   libs/AMap_3DMap_V2.4.1.jar
+-libraryjars   libs/AMap_Services_V2.4.0.jar
+-libraryjars   libs/Android_Location_V1.3.2.jar
+
+-dontwarn com.amap.api.**
+-dontwarn com.a.a.**
+-dontwarn com.autonavi.**
+
+-keep class com.amap.api.**  {*;}
+-keep class com.autonavi.**  {*;}
+-keep class com.a.a.**  {*;}
+
+
+# for alipay #
+-dontshrink
+-dontpreverify
+-dontoptimize
+-dontusemixedcaseclassnames
+
+-flattenpackagehierarchy
+-allowaccessmodification
+-printmapping map.txt
+
+-optimizationpasses 7
+-verbose
+-keepattributes Exceptions,InnerClasses
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+-ignorewarnings
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends java.lang.Throwable {*;}
+-keep public class * extends java.lang.Exception {*;}
+
+-libraryjars libs/alipaySDK-20150610.jar
+
+-keep class com.alipay.android.app.IAlixPay{*;}
+-keep class com.alipay.android.app.IAlixPay$Stub{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback$Stub{*;}
+-keep class com.alipay.sdk.app.PayTask{ public *;}
+-keep class com.alipay.sdk.app.AuthTask{ public *;}
+
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+# adding this in to preserve line numbers so that the stack traces
+# can be remapped
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+# For Umeng #
+-dontshrink
+-dontoptimize
+-dontwarn com.google.android.maps.**
+-dontwarn android.webkit.WebView
+-dontwarn com.umeng.**
+-dontwarn com.tencent.weibo.sdk.**
+-dontwarn com.facebook.**
+-keep enum com.facebook.**
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public interface com.facebook.**
+-keep public interface com.tencent.**
+-keep public interface com.umeng.socialize.**
+-keep public interface com.umeng.socialize.sensor.**
+-keep public interface com.umeng.scrshot.**
+-keep public class com.umeng.socialize.* {*;}
+-keep public class javax.**
+-keep public class android.webkit.**
+-keep class com.facebook.**
+-keep class com.umeng.scrshot.**
+-keep public class com.tencent.** {*;}
+-keep class com.umeng.socialize.sensor.**
+-keep class com.tencent.mm.sdk.modelmsg.WXMediaMessage {*;}
+-keep class com.tencent.mm.sdk.modelmsg.** implements com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject {*;}
+-keep class im.yixin.sdk.api.YXMessage {*;}
+-keep class im.yixin.sdk.api.** implements im.yixin.sdk.api.YXMessage$YXMessageData{*;}
+-keep public class [your_pkg].R$*{
+    public static final int *;
+}

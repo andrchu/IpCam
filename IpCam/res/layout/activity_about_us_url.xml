@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/about_ic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" >
+
+        <ImageView
+            android:id="@+id/about_ic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/see_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_ic"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:text="@string/app_version_name"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_ic_layout"
+        android:layout_marginTop="@dimen/about_more_item_margin_top2"
+        android:background="@drawable/tab_view_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/text_kaicong_official"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:drawableRight="@drawable/add_arrow_forward"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/about_more_item_padding_left"
+            android:text="@string/about_us_official"
+            android:textSize="@dimen/about_more_item_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/list_line" >
+        </View>
+
+        <TextView
+            android:id="@+id/text_technology"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:drawableRight="@drawable/add_arrow_forward"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/about_more_item_padding_left"
+            android:text="@string/about_us_technology"
+            android:textSize="@dimen/about_more_item_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/list_line" >
+        </View>
+
+        <TextView
+            android:id="@+id/text_mall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:drawableRight="@drawable/add_arrow_forward"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/about_more_item_padding_left"
+            android:text="@string/about_us_mall"
+            android:textSize="@dimen/about_more_item_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/list_line" >
+        </View>
+
+        <TextView
+            android:id="@+id/text_progress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:drawableRight="@drawable/add_arrow_forward"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/about_more_item_padding_left"
+            android:text="@string/about_us_progress"
+            android:textSize="@dimen/about_more_item_text_size" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/about_ic_layout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_aboutus_content" >
+
+        <TextView
+            android:id="@+id/tev_aboutUs_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/about_us_user_protocol"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/reserved_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10dp"
+                android:text="2015 KaiCong, Inc. All rights reserved." />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

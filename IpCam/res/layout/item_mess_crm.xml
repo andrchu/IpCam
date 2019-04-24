@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment_bg_color">
+
+    <TextView
+        android:id="@+id/tev_crm_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textColor="@color/dark_gray"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/tev_crm_from" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=""
+            android:textColor="@color/orange2"
+            android:layout_gravity="center"
+            android:gravity="left"
+            />
+
+       <TextView 
+           android:id="@+id/tev_crm_content"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:maxLines="3"
+           android:lines="2"
+           android:ellipsize="end"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:textSize="17sp"
+           android:text="优惠体验！"
+           />
+
+    </LinearLayout>
+
+</LinearLayout>

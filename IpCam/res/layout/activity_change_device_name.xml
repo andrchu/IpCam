@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:background="@drawable/tab_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/edt_deviceName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sure_modifyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/kaicong_orange_click"
+        android:text="@string/btn_save"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

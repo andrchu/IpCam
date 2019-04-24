@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/listview_normal_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:id="@+id/position_apply_date"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            
+            <TextView 
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_apply_position_date"/>
+            
+            <TextView 
+                android:id="@+id/apply_date"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/position_apply_success_date"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            
+            <TextView 
+                android:textSize="16sp"
+                android:id="@+id/apply_state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_apply_position_success_date"/>
+            
+            <TextView 
+                android:id="@+id/apply_success_date"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/position_desc"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            
+            <TextView 
+                android:textSize="16sp"
+                android:id="@+id/desc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_position_desc"/>
+            
+            <TextView 
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+               
+        <ImageView 
+            android:layout_marginTop="20dp"
+            android:id="@+id/position_pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

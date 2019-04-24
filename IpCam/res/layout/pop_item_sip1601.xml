@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/video_setting_resolution"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segment_group_resolution"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_btn1"
+                android:text="@string/btn_video_hd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RadioButtonTwo" />
+
+            <RadioButton
+                android:id="@+id/radio_btn2"
+                android:text="@string/btn_video_sd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RadioButtonTwo" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/video_setting_mode"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segment_group_mode"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_btn4"
+                android:text="@string/video_setting_mode_50hz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radio_btn5"
+                android:text="@string/video_setting_mode_60hz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radio_btn6"
+                android:text="@string/video_setting_mode_outdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RadioButton" />
+
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/video_setting_brightness"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek1"
+            android:max="255"
+            android:layout_marginLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/video_setting_saturation"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek2"
+            android:max="255"
+            android:layout_marginLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/video_setting_contrast"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek3"
+            android:max="255"
+            android:layout_marginLeft="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/common_image_flip"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/common_image_mirror"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_video_setting_width"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

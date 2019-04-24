@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.kaicong.myswitch.SwitchButton
+        android:id="@+id/share_switch"
+        style="@style/item"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_preference_complete"
+        android:checked="true"
+        app:frameDrawable="@drawable/switch_frame"
+        app:sliderDrawable="@drawable/selector_switch_slider"
+        app:stateDrawable="@drawable/selector_switch_state"
+        app:stateMaskDrawable="@drawable/switch_state_mask"
+        app:withTextInterval="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/device_property_title_setting"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tab_view_background"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_share_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/common_edit_input_feedback"
+                android:gravity="top"
+                android:hint="@string/device_property_share_notice"
+                android:lines="4"
+                android:paddingLeft="2dp" />
+
+            <TextView
+                android:id="@+id/position_confirm"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_layout"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/share_position_confirm"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/post_share_title"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="20dp"
+                android:background="@color/kaicong_orange"
+                android:text="@string/btn_save"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="同意" />
+
+    <TextView
+        android:id="@+id/agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/seeworld_agreement"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="devices_mode">
+
+        <!--B1系列-->
+        <!--<item>Sip1016</item>-->
+        <!--<item>Sip908</item>-->
+
+        <!--B系列1018-->
+        <item>428</item>
+        <item>1017</item>
+        <item>1018</item>
+        <item>10180000</item>
+        <item>10180011</item>
+        <item>1019</item>
+        <item>1020</item>
+        <item>1021</item>
+        <item>1022</item>
+        <item>902</item>
+        <item>910</item>
+
+        <!--M系列1201-->
+        <item>1201</item>
+        <item>1202</item>
+        <item>12020000</item>
+        <item>1203</item>
+        <item>1204</item>
+        <item>1205</item>
+        <item>1206</item>
+        <item>1207</item>
+        <item>1210</item>
+        <item>1213</item>
+        <item>1214</item>
+        <item>1215</item>
+        <item>914</item>
+        <item>1212</item>
+
+        <!--新增的1211系列-->
+        <item>1211</item>
+
+        <!--F系列1406-->
+        <item>1306</item>
+        <item>13060000</item>
+        <item>1406</item>
+        <item>916</item>
+        <item>918</item>
+
+        <!--H系列1120-->
+        <item>264</item>
+        <item>1113</item>
+        <item>1118</item>
+        <item>1119</item>
+        <item>1120</item>
+        <item>1121</item>
+        <item>1128</item>
+        <item>1308</item>
+        <item>912</item>
+
+        <!--新增的1601系列-->
+        <item>1601</item>
+        <item>1602</item>
+        <item>1603</item>
+        <item>1604</item>
+        <item>1605</item>
+        <item>1606</item>
+        <item>16060000</item>
+        <item>913</item>
+
+        <!--新增的1303系列-->
+        <item>1303</item>
+        <item>1305</item>
+
+    </string-array>
+
+    <string-array name="devices">
+
+        <!--B1系列-->
+        <!--<item>Sip1016</item>-->
+        <!--<item>Sip908</item>-->
+
+        <!--B系列1018-->
+        <item>Sip428</item>
+        <item>Sip1017</item>
+        <item>Sip1018</item>
+        <item>Sip1018w</item>
+        <item>Sip1018l</item>
+        <item>Sip1019</item>
+        <item>Sip1020</item>
+        <item>Sip1021</item>
+        <item>Sip1022</item>
+        <item>Sip902</item>
+        <item>Sip910</item>
+
+        <!--M系列1201-->
+        <item>Sip1201</item>
+        <item>Sip1202</item>
+        <item>Sip1202w</item>
+        <item>Sip1203</item>
+        <item>Sip1204</item>
+        <item>Sip1205</item>
+        <item>Sip1206</item>
+        <item>Sip1207</item>
+        <item>Sip1210</item>
+        <item>Sip1213</item>
+        <item>Sip1214</item>
+        <item>Sip1215</item>
+        <item>Sip914</item>
+        <item>Sip1212</item>
+
+        <!--新增的1211系列-->
+        <item>Sip1211</item>
+
+        <!--F系列1406-->
+        <item>Sip1306</item>
+        <item>Sip1306w</item>
+        <item>Sip1406</item>
+        <item>Sip916</item>
+        <item>Sip918</item>
+
+        <!--H系列1120-->
+        <item>Sip264</item>
+        <item>Sip1113</item>
+        <item>Sip1118</item>
+        <item>Sip1119</item>
+        <item>Sip1120</item>
+        <item>Sip1121</item>
+        <item>Sip1128</item>
+        <item>Sip1308</item>
+        <item>Sip912</item>
+
+        <!--新增的1601系列-->
+        <item>Sip1601</item>
+        <item>Sip1602</item>
+        <item>Sip1603</item>
+        <item>Sip1604</item>
+        <item>Sip1605</item>
+        <item>Sip1606</item>
+        <item>Sip1606w</item>
+        <item>Sip913</item>
+
+        <!--新增的1303系列-->
+        <item>Sip1303</item>
+        <item>Sip1201-plus</item>
+
+    </string-array>
+
+    <string-array name="video_quality">
+        <item>最高</item>
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>最低</item>
+    </string-array>
+
+    <string-array name="sip1018_video_quality">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+
+    <string-array name="video_orientation">
+        <item>正常</item>
+        <item>垂直翻轉</item>
+        <item>水平翻轉(鏡像)</item>
+        <item>垂直及水平翻轉</item>
+    </string-array>
+
+    <string-array name="video_environment">
+        <item>室内模式(50hz)</item>
+        <item>室内模式(60hz)</item>
+        <item>室外模式</item>
+        <item>夜間模式</item>
+    </string-array>
+
+    <string-array name="audio_state">
+        <item>靜音</item>
+        <item>監聽</item>
+        <item>對講</item>
+    </string-array>
+
+    <string-array name="renewals_date">
+        <item>續費1年</item>
+        <item>續費2年</item>
+        <item>續費3年</item>
+        <item>續費4年</item>
+    </string-array>
+
+    <string-array name="video_resolution_text">
+        <item>清晰度</item>
+        <item>模式</item>
+    </string-array>
+
+    <string-array name="video_resolution">
+        <item>高清</item>
+        <item>标清</item>
+        <item>極速</item>
+    </string-array>
+
+    <string-array name="video_mode">
+        <item>50Hz</item>
+        <item>60Hz</item>
+        <item>室外</item>
+    </string-array>
+
+    <string-array name="share_mode">
+        <item>分享到看世界</item>
+        <item>分享到微信，微博，郵件</item>
+    </string-array>
+
+    <!--<string-array name="video_image_attr">-->
+    <!--<item>明亮度</item>-->
+    <!--<item>饱和度</item>-->
+    <!--<item>对比度</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="video_flip">-->
+    <!--<item>图像翻转</item>-->
+    <!--<item>镜像</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="video_mode_night">-->
+    <!--<item>普通模式</item>-->
+    <!--<item>夜间模式</item>-->
+    <!--</string-array>-->
+
+    <string-array name="feedback_types">
+        <item>播放異常</item>
+        <item>App閃退</item>
+        <item>智雲續費</item>
+        <item>技術咨詢</item>
+        <item>改進建議</item>
+        <item>其它</item>
+    </string-array>
+
+    <string-array name="text_tips">
+        <item>1701固件升級啦！設置更方便，趕快下載吧！</item>
+        <item>看世界新增搜索功能咯~趕快搜索您喜歡的視頻吧！</item>
+        <item>第三方賬號（微信/微博/QQ）也能登錄看看看啦！還不去試試？</item>
+        <item>看世界推出打賞功能！更多好玩的功能盡請期待~</item>
+        <item>看世界評論實時推送咯~要時刻註意和小夥伴互動哦！</item>
+        <item>1304可以在線升級咯~趕快試試吧！</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <!-- 头像区域 -->
+            <LinearLayout
+                android:id="@+id/lel_head"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/perCenter_headBg_height"
+                android:gravity="center"
+                android:background="@drawable/personal_center01">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_userHead"
+                        android:background="@drawable/common_people_icon_frame"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/tev_accountName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/about_more_item_text_size"
+                        android:text="@string/login_user_login_btn"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/kaicong_orange" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 列表块 -->
+
+            <LinearLayout
+                android:id="@+id/lel_aboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="@drawable/home_list_selector">
+
+                <ImageView
+                    android:layout_width="@dimen/perCenter_smallImageSize"
+                    android:layout_height="@dimen/perCenter_smallImageSize"
+                    android:src="@drawable/about_us" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:text="@string/about_more_about_us"
+                        android:textSize="@dimen/about_more_item_text_size"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableRight="@drawable/add_arrow_forward" />
+
+                    <View
+                        android:background="@color/list_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"></View>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lel_weixin_xd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="@drawable/home_list_selector">
+
+                <ImageView
+                    android:layout_width="@dimen/perCenter_smallImageSize"
+                    android:layout_height="@dimen/perCenter_smallImageSize"
+                    android:src="@drawable/common_wechat_shop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/about_more_weixin_xd"
+                        android:textSize="@dimen/about_more_item_text_size"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableRight="@drawable/add_arrow_forward" />
+
+                    <View
+                        android:background="@color/list_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"></View>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lel_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="@drawable/home_list_selector">
+
+                <ImageView
+                    android:layout_width="@dimen/perCenter_smallImageSize"
+                    android:layout_height="@dimen/perCenter_smallImageSize"
+                    android:src="@drawable/feedback_new" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/about_more_feedback"
+                        android:textSize="@dimen/about_more_item_text_size"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:drawableRight="@drawable/add_arrow_forward" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lel_socialLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/home_list_selector">
+
+                <ImageView
+                    android:layout_width="@dimen/perCenter_smallImageSize"
+                    android:layout_height="@dimen/perCenter_smallImageSize"
+                    android:src="@drawable/social_login" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tev_bindText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bind"
+                        android:textSize="@dimen/about_more_item_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerInParent="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="40dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/perCenter_smallImageSize"
+                            android:layout_height="@dimen/perCenter_smallImageSize"
+                            android:src="@drawable/umeng_socialize_wechat" />
+
+                        <ImageView
+                            android:layout_width="@dimen/perCenter_smallImageSize"
+                            android:layout_height="@dimen/perCenter_smallImageSize"
+                            android:src="@drawable/umeng_socialize_sina_on"
+                            android:layout_marginLeft="5dp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/perCenter_smallImageSize"
+                            android:layout_height="@dimen/perCenter_smallImageSize"
+                            android:src="@drawable/umeng_socialize_qq_on"
+                            android:layout_marginLeft="5dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_showTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/add_arrow_forward"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="10dp"
+                        android:rotation="270" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list"
+                android:dividerHeight="1dp"
+                android:divider="@color/list_line"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

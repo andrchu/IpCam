@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="operation_failed">操作失敗，請重試</string>
+    <string name="socket_connect_error">連接服務器異常,請檢查網絡設置</string>
+    <string name="tips_no_sdcard">您的手機未安裝SD卡。</string>
+
+    <!-- 登陆 -->
+    <string name="login_invalid_email">請輸入正確的郵箱</string>
+    <string name="login_invalid_password">請輸入正確的密碼</string>
+    <string name="login_invalid_phone">請輸入正確的手機號</string>
+    <string name="login_error_account">賬戶不存在</string>
+    <string name="login_error_account_pass_not_match">賬戶密碼不匹配</string>
+    <string name="login_error_not_enabled">賬戶未激活</string>
+
+    <!-- 注册 -->
+    <string name="tips_no_devices_now">您目前還沒有添加設備，快去添加吧</string>
+    <string name="register_account_exists">賬號已存在</string>
+    <string name="register_phone_num_exists">该手机号已被注册了,请重新输入</string>
+    <string name="register_please_input_sms_code">該手機號已被註冊了,請重新輸入</string>
+    <string name="register_sms_code_error">驗證碼不正確，請重新輸入</string>
+    <string name="register_sms_max_get">您今天獲取的驗證碼次數過多，請明天重試</string>
+    <string name="reset_pwd_get_sms_failed">驗證碼申請失敗，該手機號未被註冊</string>
+
+    <string name="common_input_not_empty">輸入不可為空</string>
+    <string name="common_input_not_equal">兩次密碼輸入不壹致，請重新輸入</string>
+    <string name="common_input_new_old_equal">您的輸入與舊密碼相同，請輸入壹個新的密碼</string>
+
+    <string name="tips_this_ddns_not_exist">該雲號不存在</string>
+    <string name="tips_old_password_error">原密碼錯誤，請重新輸入</string>
+    <string name="tips_balance_short">短信余額次數不足</string>
+    <string name="tips_phone_invalid">手機號碼不合法</string>
+    <string name="tips_sms_net_error">短信網關異常</string>
+    <string name="tips_ddns_sms_not_open">操作失敗，短信報警還未開啟</string>
+    <string name="tips_ddns_pwd_error">操作失敗，凱聰雲號密碼錯誤</string>
+    <string name="tips_has_banded_device">操作失敗，您已經綁定過該設備</string>
+    <string name="tips_ddns_has_banded">操作失敗，該凱聰雲號已被綁定</string>
+    <string name="tips_not_band_ddns">操作失敗，該賬戶未綁定凱聰雲號</string>
+    <string name="tips_ddns_locked">操作失敗，凱聰雲號已鎖定</string>
+    <string name="tips_zcloud_invalid">智雲號無效</string>
+    <string name="tips_invalid_ddns">操作失敗，無效的凱聰雲號</string>
+    <string name="tips_ddns_name_password_not_match">操作失敗，凱聰雲帳號和密碼不匹配</string>
+    <string name="tips_no_favorite_device">您目前還沒有收藏任何設備，快去收藏吧</string>
+    <string name="tips_get_order_info_error">獲取訂單號失敗，請點擊確認按鈕重新獲取</string>
+    <string name="tips_pay_confirm">支付結果確認中</string>
+
+    <string name="tips_receive_packet_exception">正在斷開設備連接...</string>
+
+</resources>

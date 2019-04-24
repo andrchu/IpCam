@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/monitor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <net.kaicong.ipcam.device.sip1018.Sip1018Monitor
+            android:id="@+id/monitor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageview_recording"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/video_play_recording"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageAnimation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/progress_bar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_base_progress_dialog_content"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

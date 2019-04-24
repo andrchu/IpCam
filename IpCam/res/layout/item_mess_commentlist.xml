@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_background"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="To--> 123" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/comment_bg_color"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/user_head"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:textColor="@color/me_name"
+                    android:text="2267044302"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:id="@+id/comment_time"
+                    android:layout_marginLeft="20dp"
+                    android:text="12-08 19:05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/comment_content"
+                android:layout_marginTop="10dp"
+                android:text="小学生在LOL，我的队友和对手小学生在LOL，我的队友和对手小学生在LOL，我的队友和对手"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:ellipsize="end"
+                />
+
+            <ImageView
+                android:id="@+id/comment_img"
+                android:layout_width="@dimen/common_PicComment_width"
+                android:layout_height="@dimen/common_PicComment_height"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

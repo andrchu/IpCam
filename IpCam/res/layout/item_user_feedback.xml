@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tev_fbCtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:text="2015-2-2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/list_click_better_selector"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/fbicon"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp" />
+
+        <RelativeLayout
+            android:id="@+id/rel_lll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/img_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/temp_last"
+            >
+
+            <TextView
+                android:id="@+id/tev_feedback_content"
+                android:text="11111211"
+                android:textColor="#333333"
+                android:textSize="16.0sp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:id="@+id/tev_feedback_title"
+                android:textColor="#666666"
+                android:singleLine="true"
+                android:textSize="14.0sp"
+                android:text="App闪退"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/tev_feedback_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_marginBottom="3dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/temp_last"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center|center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/add_arrow_forward"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_alignParentRight="true"
+            />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+</LinearLayout>

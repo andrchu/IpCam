@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/img_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/about_more_item_margin_top2"
+            android:background="@drawable/home_list_selector"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/tmp_h"
+                android:layout_width="@dimen/perCenter_smallImageSize"
+                android:layout_height="@dimen/perCenter_smallImageSize"
+                android:layout_centerVertical="true"
+                android:background="@drawable/userhead_new"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:id="@+id/text_account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tmp_h"
+                android:layout_marginLeft="10dp"
+                android:text="@string/upload_photo_head"
+                android:textSize="@dimen/about_more_item_text_size" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:src="@drawable/add_arrow_forward"
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:id="@+id/user_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@id/arrow"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/common_people_icon_frame" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/tev_acount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:layout_marginTop="@dimen/about_more_item_margin_top1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/perCenter_smallImageSize"
+                android:layout_height="@dimen/perCenter_smallImageSize"
+                android:src="@drawable/mail"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/login_account_hint"
+                android:textSize="@dimen/about_more_item_text_size" />
+
+            <TextView
+                android:id="@+id/tev_mailAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_preview_margin"
+                android:text=""
+                android:gravity="center|right"
+                android:layout_marginRight="10dp"
+                android:textSize="@dimen/world_view_text_size" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/list_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:background="@drawable/home_list_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/perCenter_smallImageSize"
+                android:layout_height="@dimen/perCenter_smallImageSize"
+                android:src="@drawable/beans_25"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="云豆"
+                android:textSize="@dimen/about_more_item_text_size" />
+
+            <TextView
+                android:id="@+id/tev_yundouSum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_preview_margin"
+                android:text="0"
+                android:gravity="center|right"
+                android:layout_marginRight="10dp"
+                android:textSize="@dimen/world_view_text_size" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/list_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp" />
+
+        <LinearLayout
+            android:id="@+id/lel_reward_info"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_list_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/perCenter_smallImageSize"
+                android:layout_height="@dimen/perCenter_smallImageSize"
+                android:src="@drawable/reward"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/reward_info"
+                android:textSize="@dimen/about_more_item_text_size"
+                android:drawableRight="@drawable/add_arrow_forward" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lel_changePwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/about_more_item_margin_top1"
+            android:background="@drawable/home_list_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/perCenter_smallImageSize"
+                android:layout_height="@dimen/perCenter_smallImageSize"
+                android:src="@drawable/changepwd"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/about_more_change_pwd"
+                android:textSize="@dimen/about_more_item_text_size"
+                android:drawableRight="@drawable/add_arrow_forward" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:id="@+id/log_out"-->
+    <!--android:background="@drawable/common_tag_red_click"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:text="@string/about_more_login_out_text" />-->
+
+    <Button
+        android:id="@+id/btn_loginOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kaicong_orange_click"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:text="@string/about_more_login_out_text"
+        android:textSize="@dimen/about_more_item_text_size" />
+
+</LinearLayout>
